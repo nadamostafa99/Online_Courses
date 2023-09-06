@@ -1,0 +1,139 @@
+.row {
+    padding: 0;
+    margin: 0;
+     
+  }
+  /* .container {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .main-wrapper {
+    padding: 5rem 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.firstheader{
+    color: green;
+   
+}
+.content{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.secondheader{
+    font-weight: bold;
+}
+input{
+    margin: 150px auto;
+    width: 20%;
+    
+    /* width: 100px; */
+    height: 40px;
+    border-color: rgb(211, 211, 211);
+}
+
+button{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-style: none;
+}
+#btn1{
+    border-radius: 10%;
+}
+.Search{
+    margin: 50px auto;
+    padding-left: 60px;
+    width: 100%;
+}
+.card{
+    display: inline-block;
+    /* width: 350px;
+    height: 50px; */
+    padding: 20px;
+    margin: 2vw auto ;
+    border-color: aqua;
+}
+#m{
+    width: 40%;
+}
+
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+}
+#best{
+    background-color: rgb(231, 231, 144);
+    border: 2px solid black;
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+    border-radius: 10px;
+    border-style: none;
+    color:rgb(129, 129, 29);
+    text-align: center;
+}
+.title p{
+  padding-top: 10px;
+    color: gray;
+    
+}
+.title h4{
+    padding-right: 10px;
+    width: 100%;
+}
+#Sessions{
+    
+    color: gray;
+}
+
+.details{
+    padding-top: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.alldetails{
+    display: flex;
+    justify-content: space-between; 
+}
+.alldetails{
+    display: flex;
+    justify-content: space-between;
+}
+.cost{
+    padding-top:10px ;
+}
+#current_cost{
+    color: green;
+    font-weight: bold;
+    padding-right: 10px;
+}
+#prev_cost{
+    color: gray;
+    /* padding-right: 95px; */
+}
+.allcost{
+    display: flex;
+    justify-content: space-between;
+}
+.hidden {
+    display: none;
+}
+.showButton{
+    border-radius: 50%;
+    width: 5%;
+}
+.head{
+    display: inline-block;
+}
